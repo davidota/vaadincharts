@@ -1,3 +1,30 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic"
+    "java.compile.nullAnalysis.mode": "automatic",
+    "githubIssues.queries": [
+
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "Recent Issues",
+            "query": "state:open repo:${owner}/${repository} sort:updated-desc"
+        }
+    ]
+        "git-autoconfig.configList": [
+            {
+                "user.email": "davidoscar@gmail.com",
+                "user.name": "davidota"
+             },
+             {
+                 "user.email": "davidoscar@gmail.com",
+                 "user.name": "davidota"
+             }
+            ]
+
+
 }
