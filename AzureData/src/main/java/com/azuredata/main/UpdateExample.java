@@ -39,7 +39,7 @@ public class UpdateExample extends VerticalLayout {
         chart.setHeight("400px");
         Button update = new Button("Update", buttonClickEvent -> {
             chart.updateSeries(new Series<>( rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000), rd.nextDouble(0, 2000)));
-            Notification.show("The chart was updated!");
+            Notification.show("The chart was updated!...");
         });
         add(chart, update);
     }
