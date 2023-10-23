@@ -15,16 +15,4 @@
             "query": "state:open repo:${owner}/${repository} sort:updated-desc"
         }
     ]
-        "git-autoconfig.configList": [
-            {
-                "user.email": "davidoscar@gmail.com",
-                "user.name": "davidota"
-             },
-             {
-                 "user.email": "davidoscar@gmail.com",
-                 "user.name": "davidota"
-             }
-            ]
-
-
 }
